@@ -102,3 +102,32 @@ body{
     margin-top: 10px;
 }
 
+/*main section*/   
+/*future section */
+
+.future-section {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.future-section> .card-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card-box > .card {
+    width: 404px;
+    height: 320px;
+    padding: 32px;
+    border-radius: 13px;
+    box-sizing: border-box;
+    background-color: #C6E4D6;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: flex-start;
+}
