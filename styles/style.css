@@ -34,12 +34,24 @@ body{
     color: #FFFFFF;
     border: none;
  }
+ .btn-2 {
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border:none;
+    font-size: 40px;
+    font-weight: 700;
+    color:rgba(14, 14, 14, 0.8);
+    background-color: rgb(255, 255, 255);
+ }
  .section-title {
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
     line-height: 45px;
  }
+/*end of sheared style*/
+
 /* nav-bar */
 .nav-bar {
     /* background-color: green; */
@@ -116,7 +128,8 @@ body{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 20px;
+    justify-content: space-between;
+    /* gap: 20px; */
 }
 
 .card-box > .card {
@@ -131,3 +144,131 @@ body{
     gap: 22px;
     align-items: flex-start;
 }
+.card> .card-heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.card-box > .card > .card-btn{
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    color:#FFFFFF;
+}
+.card-box > .card1  {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.card-box > .card2  {
+    background-color: rgb(198, 228, 214) ;
+}
+.card-box > .card3  {
+    background-color: rgb(247, 235, 207);
+}
+.future-description {
+    height: 256px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 48px 24px 48px 24px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    background-image: url("/assets/quote-bg.png");
+    background-position: top 25px left 24px;
+    background-repeat: no-repeat;
+}
+.future-description> .name> .card-heading {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/* recent section */
+.recent {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.recent> p{
+    margin-top: 24px;
+}
+
+.recent-card-box {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:24px;
+}
+.recent-card-box > .card {
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+} 
+.recent-card-box > .card > .image> img {
+    height: 300px;
+    width: 400px;
+    border-radius: 24px;
+} 
+.recent-card-box > .card > .card-info > .al-image,.date, .description {
+    margin-top: 12px;
+}
+.recent-card-box > .card > .card-info > .btn-1 {
+    margin-top: 32px;
+}
+/*end of recent section*/
+
+/*Donate Section*/
+
+.donate {
+    margin-top: 80px;
+}
+.donate> .section-title {
+    text-align: center;
+}
+.donate> .description {
+    margin: 0 88px;
+    margin-top: 24px;
+    text-align: center;
+}
+.donate> .donate-btns {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.donate> .other-amount {
+    padding: 2px 450px 2px 450px;
+    height: 40px;
+    border: none;
+    background-color:#FFFFFF;
+    display: block;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+.donate> .donate-btn{
+   display: block;
+   margin: 30px auto 0px auto;
+}
+
+
+
+
+
+
+
+
