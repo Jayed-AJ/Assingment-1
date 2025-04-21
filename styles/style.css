@@ -8,7 +8,15 @@
     font-variation-settings:
     "wdth" 100;
   }
-body{
+body {
+    background-color: #F1F1F3;
+}
+body>header{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #F1F1F3;
+}
+body>main{
     width: 1280px;
     margin: 0 auto;
     background-color: #F1F1F3;
@@ -336,6 +344,38 @@ main> .subscribe> h1 {
    border-top-left-radius: 8px;
    border-bottom-left-radius: 8px ;
 }
+
+/* footer section */ 
+body>footer {
+    width: 100%;
+}
+
+.footer {
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 80px;
+    box-sizing: border-box;
+    padding: 80px 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer> .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer> .icon-container> img {
+    padding: 4px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.footer> .icon-container img:hover {
+    border: 1px solid black;
+}
+
+
+
 
 
 
